@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <script src="myscript.js"></script>
+        <script src="string.js"></script>
+    </head>
+    <body>
+        <h1>js first program</h1>
+        <p id="demo">This is the paragraph!!</p>
+        <button type="button" onclick="document.getElementById('demo').innerHTML=('changed paragraph')">
+            Click here to change paragraph!
+        </button>
+        <br>
+
+        <button type="button" onclick="function2()">
+            click here to retrive paragraph!
+        </button>
+        <br>
+        
+        <button type="button" onclick="document.write('cleared the html document')">
+            click here for document.write function!!
+        </button>
+        <br>
+        
+        <button onclick="function1()">
+            Print this page;
+        </button>
+        <br>
+        
+        <button onclick="function3()">
+            click here to get the value of z!!<br>
+            and the string!!
+        </button>
+        <br>
+        
+        <button type="button" onclick="function4()">
+            click here to add two strings!!! <br>
+            i.e jhon and deo
+        </button>
+        <br>
+        
+        <button type="button" onclick="function6()">
+          Click to exectue a the object!!
+        </button>
+        <br>
+        
+        <button onclick="document.getElementById('demo').innerHTML=Date()">
+        The time is?
+        </button>
+        <br>
+        
+        <button onclick="alert('HELLO')">
+        Click me.
+        </button>
+        <br>
+        
+        <!-- The Math.random() is funciton that provides random numbers between 0 and 1-->
+        <button onclick="document.getElementById('demo').innerHTML=Math.random()">
+            Click here to get random numbers!!
+        </button>
+        <br>
+
+        <!--This fucntion is used to get the min and max value in the list of arguments -->
+        <button onclick="document.getElementById('demo').innerHTML=Math.min(56456,543,75,32,644,234)">
+            Click here to get minimum number!!
+        </button>
+        <br>
+        <button onclick="document.getElementById('demo').innerHTML=Math.max(56456,543,75,32,644,234)">
+            Click here to get maximun number!!
+        </button>
+        <br>
+        <button onclick="function13()">
+            Click to get the current date
+        </button>
+        <br>
+        <!--switch case-->
+        <button onclick="switch_case()">
+            Click to switch case between dates
+        </button>
+        <br>
+        <!--For loop-->
+        <button onclick="for_loop()">
+            Click to run the for loop
+        </button>
+        <br>
+
+        <!--Errors in js-->
+        <button onclick="error_detect()">
+            Click to run the error detectation 
+        </button>
+        <br>
+
+        <!--Printing all the elements of an object-->
+        <button onclick="object_print()">
+            Click here to print all the elements of an object
+        </button>
+        <br>
+        <br>
+            
+    </body>
+</html>
