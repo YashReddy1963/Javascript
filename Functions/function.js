@@ -23,7 +23,7 @@ function function_property(){
 
 }
 
-//This is function_object
+//This is function_object and nothing else
 function function_object(){
     function myfunction(a,b){
         //Object constructor
