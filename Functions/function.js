@@ -1,3 +1,4 @@
+console.log(document);
 function function_constructor(){
     const myfunction = function(a,b){
         return(a + b);
