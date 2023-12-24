@@ -31,6 +31,7 @@ function function5(){
     document.getElementById("demo").innerHTML = fruit.toString();
 }
 
+
 //printing array using loop
 function function6(){
     let flen = fruit.length;
