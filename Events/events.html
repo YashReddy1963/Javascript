@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="events.js"></script>
+    </head>
+    <body>
+        <!--oninput == will change the text to uppercase while entering-->
+        Enter your name: <input type="text" id="fname" oninput="upperCase()">
+        <p>when you write the text will be transform into uppercase</p>
+        <br>
+
+        <!--here we need to use different id since we can't use same id for multiple times-->
+        <!--onchange == will change the text when leaving the input text field-->
+        Enter your name: <input type="text" id="fname1" onchange="upperCase()">
+        <p>when you leave the input box the text will transform to uppercase</p>
+
+        <!--onmouseover and onmouseout are triggerred when we move on the html elements-->
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:#D94A38;width:120px;height:20px;padding:40px;">Mouse over me</div>
+    </body>
+</html>
