@@ -1,4 +1,4 @@
-
+//Events
 function upperCase(){
     const y = document.getElementById("fname1");
     y.value = y.value.toUpperCase();
@@ -14,3 +14,4 @@ function mOver(obj){
 function mOut(obj){
     obj.style.background = "Red";
 }
+

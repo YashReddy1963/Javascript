@@ -15,6 +15,41 @@
         <p>when you leave the input box the text will transform to uppercase</p>
 
         <!--onmouseover and onmouseout are triggerred when we move on the html elements-->
-        <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:#D94A38;width:120px;height:20px;padding:40px;">Mouse over me</div>
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:red;width:120px;height:20px;padding:40px;">Mouse over me</div>
+        <br>
+
+        <!--Events Listener-->
+        <!--When you click here two events will be called by the eventlistener-->
+        <button id="btn">Click this</button>
+        <br><br>
+
+        <!--Event listener with parameters-->
+        <button id="btn2">Click here</button>
+        <p id="demo">Here the multiplication of 5 * 7 is displayed</p>
+        <script>
+            //Events Listeners
+            const x = document.getElementById("btn");
+            x.addEventListener("click", myFunction);
+            x.addEventListener("click", someOtherFunction);
+
+            function myFunction() {
+            alert ("Hello World!");
+            }
+
+            function someOtherFunction() {
+            alert ("This function was also executed!");
+            }
+
+            //Event Listener by passing parameters
+            let p1 = 5;
+            let p2 = 7;
+            document.getElementById("btn2").addEventListener("click", function(){
+                myfunction(p1,p2);
+            });
+            function myfunction(a, b){
+                document.getElementById("demo").innerHTML = a * b;
+            }
+        </script>
+
     </body>
 </html>
