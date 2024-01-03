@@ -51,5 +51,18 @@ function async_await(){
 }
 
 function async_await2(){
+    async function weather(){
+        let delhiWeather = new Promise((resolve,reject)=>{
+            setTimeout(() => {
+                resolve("23 deg")
+            }, 3000);
+        })
+        let bangloreWeather = new Promise((resolve,reject)=>{
+            setTimeout(() => {
+                resolve("25 deg")
+            }, 5000);
+        })
 
+        console.log("Fetching DEl")
+    }
 }
