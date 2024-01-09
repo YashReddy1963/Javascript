@@ -63,6 +63,14 @@ function async_await2(){
             }, 5000);
         })
 
-        console.log("Fetching DEl")
+        console.log("Fetching DElHI weather...")
+        let delW = await delhiWeather
+        console.log("Featched delhi weather: "+delW)
+
+        console.log("Featching banglore weather...")
+        let bangW = await bangloreWeather
+        console.log("Featched banglore weather: "+bangW)
     }
+    let b = weather()
+    console.log(b)
 }

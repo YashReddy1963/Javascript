@@ -41,4 +41,4 @@ function promise_fn(){
     myPromise.then((value)=> {myDisplayer(value);},
             (error) => {myDisplayer(error); }
     );
-}
+}cd
